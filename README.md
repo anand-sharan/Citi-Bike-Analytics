@@ -1,6 +1,6 @@
 # Citi Bike Analytics
 
-### Tableau Public Website
+### Solved Tableau Viz on Tableau Public Website
 
 [Tableau Public Website](https://public.tableau.com/profile/anand.vardhan.sharan#!/vizhome/Citi_Bike_Three_Year_July_Analysis_Solved/CitiBikeJuly2018-2020Analysis)
 
