@@ -1,16 +1,8 @@
-# Tableau Homework - Citi Bike Analytics
+# Citi Bike Analytics
 
-### Before You Begin
+### Tableau Public Website
 
-* This assignment will be saved to your Tableau Public account rather than GitHub. 
-
-* If you haven't already, be sure to create a Tableau Public account [here](https://public.tableau.com/s/).
-
-* The free tier of Tableau only lets you save to their public server. This means that each time you save your file it will be uploaded to your Tableau Public profile. 
-
-* You are able to load and continue working on the same workbook.
-
-* When you are finished with your assignment, you will turn in the URL to your Tableau Public workbook along with any additional files used for your analysis. 
+[Tableau Public Website](https://public.tableau.com/profile/anand.vardhan.sharan#!/vizhome/Citi_Bike_Three_Year_July_Analysis_Solved/CitiBikeJuly2018-2020Analysis)
 
 ## Background
 
@@ -32,31 +24,99 @@ However, while the data has been regularly updated, the team has yet to implemen
 
 * How many trips have been recorded total during the chosen period?
 
+  * 6,200,497 rides combined for July 2018, 2019 and 2020
+
 * By what percentage has total ridership grown?
+
+  * Ridership has grown for the month of July year over year from 2018 to 2019 by 4.32% and has decreased for the month of July year over year from 2019 to 2020 by 1.22%
 
 * How has the proportion of short-term customers and annual subscribers changed?
 
+  * While short-term customer ridership has grown from July 2018 to 2019 by 1.51% and July 2019 to 2020 by 3.17%, annual subscribers have grown by 2.81% and 3.07% since 2018 to 2020. However it is descreased by 4.39% over the chosen period (month of July)
+
 * What are the peak hours in which bikes are used during summer months?
+
+  * Not surprisingly the most popular hours were at 5:00pm/6:00pm which correlate to rush hours for the evening commuters. Due to summer weather we are see gradual increase in the number of trips uptil rush hour, however we see fewer trips during morning rush hours which could be due to hot weather during summer months.
 
 * What are the peak hours in which bikes are used during winter months?
 
+  * The most popular hours were at 8:00am and 5:00pm/6:00pm which correlate to rush hours for the morning and evening commuters
+
 * Today, what are the top 10 stations in the city for starting a journey? (Based on data, why do you hypothesize these are the top locations?)
+
+  * Pier 40 - Hudson River Park
+  * 8 Ave & W 31 St
+  * Broadway & W 25 St
+  * E13St & Avenue A
+  * 1 Ave & E 68 St
+  * Grand St & Elizabeth St
+  * Central Park West & W 72
+  * 5 Ave & E 73 St
+  * E33 St & 1 Ave
+  * Gansevoort St & Hudson St
+  * Based on the data of bike stations in the city for starting a journey the above locations are top 10 because they are near major transportation hubs (MTA stations), and also near bike routes (i.e. Hudson River Park, Madison Square Park, Central Park) which are popular amongst riders.
 
 * Today, what are the top 10 stations in the city for ending a journey? (Based on data, why?)
 
+  * West St & Chambers St
+  * 12 Ave & W 40 St
+  * 12th Ave & W. 40th St
+  * Pershing Square North
+  * E17 St & Broadway
+  * W 21 St & 6 Ave
+  * Christopher St & Greenwich St
+  * Broadway & E 22 St
+  * Pier 40 - Hudson River Park
+  * Broadway & E14 St
+  * Based on the data of bike stations in the city for ending a journey the above locations are top 10 because they are near major transportation hubs (MTA stations), and also near bike routes (i.e. Battery Park, Grand Central Station, Madison Square Park, Hudson River Park, Union Square Park) which are popular amongst riders.
+
 * Today, what are the bottom 10 stations in the city for starting a journey? (Based on data, why?)
+
+  * 8D Mobile 01
+  * Prospect Ave & Longwood Ave
+  * 8D OPS 01
+  * E156 & Brook Ave St
+  * Harlem River Dr & W155 St
+  * Alexander Ave & E 134 St
+  * NYCBS Depot - RIS
+  * Bergen Ave & E 152 St
+  * The bottom 10 stations for starting a journey are either at NYC bus stations, and outside of Manhattan, which has th largest concentration of bike stations.
 
 * Today, what are the bottom 10 stations in the city for ending a journey (Based on data, why?)
 
+  * 8D OPS 01
+  * Brunswick St
+  * Exchange Place
+  * Grover St PATH
+  * Hilltop
+  * Liberty Light Rail
+  * McGinley Square
+  * Newark Ave
+  * Newport PATH
+  * The bottom 10 stations for ending a journey are either at NYC bus stations, and outside of Manhattan in New Jersey, which has the largest concentration of bike stations.
+
 * Today, what is the gender breakdown of active participants (Male v. Female)?
+
+  As of July 2020 there are:
+  56.98% Male
+  30.08% Female
+  12.94% Unknown
 
 * How effective has gender outreach been in increasing female ridership over the timespan?
 
+  * Female ridership has increased year over year but male ridership still far outpaces all genders
+
 * How does the average trip duration change by age?
+
+  * The major bike riders fall into the age group of 25-30 and 45-50 years of males.
+  * The peak at the age group of 45-50 years and the ridership data at the older age groups (above 80-90 years) may also indicate the input error of birth year at the user end.
 
 * What is the average distance in miles that a bike is ridden?
 
+
 * Which bikes (by ID) are most likely due for repair or inspection in the timespan?
+
+  * There are 11 bikes that are have been ridden over 4 million seconds (over 1,000 hours) that are at the highest risk of repair or inspection, and 0 bikes that have surpassed over 6 million seconds (1,666 hours)
 
 * How variable is the utilization by bike ID?
 
